@@ -3,9 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Design Labs</title>
+
+    <!--CSS Link-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Imported Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handjet:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--Imported Fonts-->
+
 </head>
+
+<!--Start of the Body-->
 <body>
+
+    <main>  
+
+        <div id="head">
+            <h3><a href="index.html">DES 070 Labs</a></h3>
+        </div>
+
+        <div id="sub-head">
+            <h3>CSS Exercise 1: Selectors</h3>
+        </div>
+        
+        <!--Post 1-->
+        <div class="post">
+            <h2>CSS Class Selector</h2>
+            <img src="images/240306_CoL_LightPainting_VIY227-5.jpg">
+            <p>This post element uses a class selector, .post. Classes are re</p>
+        </div>
+        <!--Post 2-->
+        <div class="post">
+            <h2 class="special-headline">Another CSS Class Selector</h2>
+            <img src="images/HollyBDayFinal.jpg">
+            <p>This post element uses a class selector, .post. Classes are re</p>
+        </div>
+        <!--Post 3-->
+        <div id="post" class="post">
+            <h2 class="special-headline">CSS ID Selctor</h2>
+            <img src="images/20230427_CapAndGownReel_MLS-5-2.jpg">
+            <p>This post element uses an id selector, #post. Ids shoulld only be used one time.</p>
+        </div>
+        <!--Post 4-->
+        <div class="post highlight">
+            <h2>CSS Secondary Class Selector</h2>
+            <img src="images/20230427_CapAndGownReel_MLS-5-2.jpg">
+            <p>This post element usese an additonal class, .highlight, which we can use to override the styles in .post</p>
+            <p>More information on <a href = "https://www.w3schools.com">W3Schools</a></p>
+        </div>
+
+    </main>
     
 </body>
 </html>
