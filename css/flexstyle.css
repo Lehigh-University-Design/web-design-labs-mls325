@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: red;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start;
+
+    z-index: 999;
+
+    position: fixed;
+    width: 100%;
+    .left{
+        position: flex;
+        justify-content: flex-start;
+        width: 50%;
+        padding-left: 20px;
+
+    }
+    .right{
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
+
+.container{
+    display: flex;
+    background-color: green;
+    justify-content: center;
+    height: 100vh;
+}
+
+.landingText{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nickImgLanding{
+    display: flex;
+    min-width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nickImg{
+    height: 300px;
+}
+
+.about{
+    background-color: yellow;
+}
+
+.service{
+    background-color: blue;
+}
+
+.nickCard1{
+    background: pink;
+    height: 600px;
+
+    border-radius: 50px;
+}
+
+.nickCard2{
+    background-color: pink;
+    height: 600px;
+    
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.nickCardLanding{ /*Effects the positioning of the cards*/
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nickCardText1{
+    display: flex;
+    justify-content: center;
+}
+
+.nickCardText2{
+   display: flex;
+   justify-content: center;
+   justify-items:flex-end;
+}
+
+
+
+.nickCardPicture1{
+    padding: 50px;
+    border-radius: 50%;
+}
+
+.nickCardPicture2{
+    border-radius: 50px 50px 0px 0px;
+    min-width: 50%;
+    display: flex;
+}
